@@ -19,8 +19,15 @@ body {
     align-items: center;
 }
 
-body>div {
+.container {
+    width: 100%;
     max-width: 900px;
+}
+
+header {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    border-bottom: dotted 2px var(--base-color);
 }
 
 .heading {
@@ -71,9 +78,7 @@ footer {
 }
 
 aside {
-    padding-top: 10px;
     padding-bottom: 10px;
-    border-top: dotted 2px var(--base-color);
     margin-top: 10px;
 }
 
@@ -91,7 +96,7 @@ img {
 }
 
 nav {
-    padding-bottom: 20px;
+    padding: 20px 0;
     display: flex;
 
     ul {
